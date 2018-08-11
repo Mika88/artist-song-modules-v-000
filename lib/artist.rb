@@ -11,7 +11,6 @@ class Artist
   end
 
   def initialize
-    extend Memorable::ClassMethods
     @@artists << self
     @songs = []
   end
