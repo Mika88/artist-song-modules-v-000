@@ -1,4 +1,5 @@
 require 'pry'
+extend Memomrable::ClassMethods
 
 class Song
   attr_accessor :name
